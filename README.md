@@ -1,6 +1,6 @@
 # Unit 03 JavaScript: Password Generator
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+For the third assignment, I needed to create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes. My main focus has been on ensuring I have functional JS code, and that I've accounted for possible bugs. This would be made easier if I steered away from prompts and in-browser pop ups, which will be a point to further develop on in future projects.
 
 ## Contents
 
@@ -47,6 +47,8 @@ _Snapshots of password generated and clipboard function_
 ![](Assets/clipboardFx.jpg)
 
 #### Deployed application
+
+Link: https://agr2020xman.github.io/Homework_Week_3/
 
 ### Authors
 
