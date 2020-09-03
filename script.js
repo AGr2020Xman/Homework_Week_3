@@ -163,3 +163,33 @@ function generatePassword() {
 
     isFirstTime = false;
   }
+
+  // password character array
+  var passwordCharacters = [];
+
+  if (confirmSpecialChar) {
+    passwordCharacters = passwordCharacters.concat(specialCharacters);
+  }
+  if (confirmNumericChar) {
+    passwordCharacters = passwordCharacters.concat(numericCharacters);
+  }
+  if (confirmLowerCase) {
+    passwordCharacters = passwordCharacters.concat(lowerCasedCharacters);
+  }
+  if (confirmUpperCase) {
+    passwordCharacters = passwordCharacters.concat(upperCasedCharacters);
+  }
+
+  // console.log(passwordCharacters);
+
+  //string to be output with password - intially empty
+
+  var randomPassword = "";
+
+  for (var i = 0; i < parseInt(confirmLength); i++) {
+    randomPassword =
+      randomPassword +
+      passwordCharacters[Math.floor(Math.random() * passwordCharacters.length)];
+  }
+  return randomPassword;
+}
