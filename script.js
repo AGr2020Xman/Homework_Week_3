@@ -93,7 +93,7 @@ var upperCasedCharacters = [
 
 //button event functions
 var generateBtn = document.querySelector("#generate");
-var copyToClipBoardButton = document.getElementById("#copy-clipboard");
+var copyToClipBoardButton = document.querySelector("#copy-clipboard");
 
 // Write password to the #password input
 function writePassword() {
@@ -193,4 +193,12 @@ function generatePassword() {
       passwordCharacters[Math.floor(Math.random() * passwordCharacters.length)];
   }
   return randomPassword;
+}
+
+function copytoClipboard() {
+  document.querySelector("#password").select();
+
+  document.execCommand("Copy");
+
+  alert("Your password has now been copied to the clipboard");
 }
