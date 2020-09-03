@@ -104,3 +104,33 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+// generate password function
+function generatePassword() {
+  var confirmLength = "";
+  var confirmSpecialChar = false;
+  var confirmNumericChar = false;
+  var confirmUpperCase = false;
+  var confirmLowerCase = false;
+
+  confirmLength = prompt(
+    "How many characters would you like the password to contain?"
+  );
+
+  // to define length input conditions | and incase a string and not a number is detected
+
+  while (
+    confirmLength <= limits.passwordLengthLowerLimit ||
+    confirmLength >= limits.passwordLengthUpperLimit ||
+    isNaN(parseInt(confirmLength))
+  ) {
+    alert(
+      "Password length must be between 8-128 characters. Please enter a valid length."
+    );
+    confirmLength = prompt(
+      "How many characters would you like the password to contain?"
+    );
+  }
+  alert(`Your password will contain ${confirmLength} characters`);
+
+  confirmLength = parseInt(confirmLength);
