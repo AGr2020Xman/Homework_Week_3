@@ -42,9 +42,9 @@ Functions created for buttons using techniques learned in class, supplemented wi
 
 _Snapshots of password generated and clipboard function_
 
-![](Assets/passwordFx.jpg)
+![](Assets/passwordFx.JPG)
 
-![](Assets/clipboardFx.jpg)
+![](Assets/clipboardFx.JPG)
 
 #### Deployed application
 
