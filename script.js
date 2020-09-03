@@ -1,6 +1,3 @@
-// Obj containing password limits - easily changed in future
-var limits = { passwordLengthLowerLimit: 7, passwordLengthUpperLimit: 128 };
-
 // Array of special characters
 var specialCharacters = [
   "@",
@@ -90,6 +87,9 @@ var upperCasedCharacters = [
   "Y",
   "Z",
 ];
+
+// Obj containing password limits - easily changed in future
+var limits = { passwordLengthLowerLimit: 7, passwordLengthUpperLimit: 129 };
 
 //button event functions
 var generateBtn = document.querySelector("#generate");
