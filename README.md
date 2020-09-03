@@ -1,10 +1,12 @@
-# 03 JavaScript: Password Generator
+# Unit 03 JavaScript: Password Generator
 
 Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
+## Contents
 
-## User Story
+- index.html, script.js, style.css, Assets folder (with Array.js and demo image)
+
+### User Story
 
 ```
 AS AN employee with access to sensitive data
@@ -32,17 +34,29 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-The following image demonstrates the application functionality:
+### Code
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+Functions created for buttons using techniques learned in class, supplemented with techniques from my own learning.
 
-## Review
+### Sample of deployed application
 
-You are required to submit the following for review:
+_Snapshots of password generated and clipboard function_
 
-* The URL of the deployed application.
+![](./Assets/passwordFx.jpg)
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+![](./Assets/clipboardFx.jpg)
 
-- - -
+#### Deployed application
+
+### Authors
+
+- Added code by Andr&eacute; Grech - 03/09/2020
+- Arrays and design provided by Trilogy Education Services.
+
+---
+
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+---
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
