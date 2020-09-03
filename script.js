@@ -91,8 +91,9 @@ var upperCasedCharacters = [
   "Z",
 ];
 
-// Assignment Code
+//button event functions
 var generateBtn = document.querySelector("#generate");
+var copyToClipBoardButton = document.getElementById("#copy-clipboard");
 
 // Write password to the #password input
 function writePassword() {
