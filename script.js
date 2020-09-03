@@ -134,3 +134,32 @@ function generatePassword() {
   alert(`Your password will contain ${confirmLength} characters`);
 
   confirmLength = parseInt(confirmLength);
+
+  // query user for password parameters
+  // loop if user fails to include at least 1 special conditionl
+  var isFirstTime = true;
+  while (
+    confirmUpperCase === false &&
+    confirmLowerCase === false &&
+    confirmSpecialChar === false &&
+    confirmNumericChar === false
+  ) {
+    if (isFirstTime === false) {
+      alert("You must choose at least one (1) parameter for your password");
+    }
+
+    confirmSpecialChar = confirm(
+      "Click OK to confirm if you wish to include special characters"
+    );
+    confirmNumericChar = confirm(
+      "Click OK to confirm if you wish to include numeric characters"
+    );
+    confirmUpperCase = confirm(
+      "Click OK to confirm if you wish to include upper characters"
+    );
+    confirmLowerCase = confirm(
+      "Click OK to confirm if you wish to include lower characters"
+    );
+
+    isFirstTime = false;
+  }
