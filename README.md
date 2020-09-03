@@ -42,9 +42,9 @@ Functions created for buttons using techniques learned in class, supplemented wi
 
 _Snapshots of password generated and clipboard function_
 
-![](./Assets/passwordFx.jpg)
+![](Assets/passwordFx.jpg)
 
-![](./Assets/clipboardFx.jpg)
+![](Assets/clipboardFx.jpg)
 
 #### Deployed application
 
@@ -52,10 +52,6 @@ _Snapshots of password generated and clipboard function_
 
 - Added code by Andr&eacute; Grech - 03/09/2020
 - Arrays and design provided by Trilogy Education Services.
-
----
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 ---
 
