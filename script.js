@@ -106,6 +106,9 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+// Add event listener to copy to clipboard button
+copyToClipBoardButton.addEventListener("click", copytoClipboard);
+
 // generate password function
 function generatePassword() {
   var confirmLength = "";
